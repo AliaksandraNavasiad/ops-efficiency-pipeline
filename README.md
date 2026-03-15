@@ -4,6 +4,12 @@ A Python data pipeline that ingests ride-hailing operations data, enriches it wi
 
 ---
 
+## 📊 Dashboard Preview
+
+![KPI Dashboard](output/dashboard.png)
+
+---
+
 ## 📌 Project Purpose
 
 Demonstrates end-to-end data engineering and analytics skills:
