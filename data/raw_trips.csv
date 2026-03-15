@@ -1,0 +1,501 @@
+trip_id,date,hour,city_zone,driver_id,distance_km,duration_min,fare_eur,status,cancellation_reason
+T00001,2025-02-15,17,University,DRV_012,2.75,27.2,12.51,cancelled,driver_no_show
+T00002,2025-03-08,7,Airport,DRV_009,12.64,37.4,23.2,completed,
+T00003,2025-03-04,7,City Centre,DRV_027,6.78,29.6,15.34,cancelled,rider_cancelled
+T00004,2025-02-26,18,University,DRV_033,3.22,36.4,14.26,completed,
+T00005,2025-02-25,8,Suburbs,DRV_012,7.44,33.1,18.37,completed,
+T00006,2025-03-10,19,City Centre,DRV_035,2.41,24.0,10.22,completed,
+T00007,2025-02-15,7,Airport,DRV_023,15.91,38.0,29.04,completed,
+T00008,2025-03-05,8,Industrial,DRV_007,6.79,25.9,14.34,completed,
+T00009,2025-02-19,17,Airport,DRV_015,13.03,39.8,26.3,cancelled,driver_no_show
+T00010,2025-02-15,9,City Centre,DRV_001,3.3,20.6,10.11,cancelled,no_driver_available
+T00011,2025-02-28,20,University,DRV_002,7.77,21.6,15.05,completed,
+T00012,2025-03-14,17,City Centre,DRV_014,3.22,32.2,11.75,cancelled,rider_cancelled
+T00013,2025-03-07,9,Industrial,DRV_019,4.29,38.8,14.61,completed,
+T00014,2025-03-07,20,Industrial,DRV_032,4.31,34.9,13.93,completed,
+T00015,2025-03-06,8,Industrial,DRV_006,3.14,36.4,13.33,cancelled,rider_cancelled
+T00016,2025-03-08,5,Industrial,DRV_034,6.54,29.3,12.78,completed,
+T00017,2025-02-28,17,Airport,DRV_010,16.52,43.4,27.65,cancelled,rider_cancelled
+T00018,2025-02-16,20,Airport,DRV_006,13.96,40.2,26.63,cancelled,driver_no_show
+T00019,2025-03-10,19,Airport,DRV_028,16.93,41.2,27.23,completed,
+T00020,2025-02-26,20,Suburbs,DRV_031,2.88,27.9,12.12,completed,
+T00021,2025-02-28,2,Industrial,DRV_025,1.53,28.6,8.17,cancelled,driver_no_show
+T00022,2025-02-24,19,University,DRV_005,5.21,16.9,11.94,completed,
+T00023,2025-02-18,8,University,DRV_005,7.96,17.1,16.76,completed,
+T00024,2025-03-12,8,Industrial,DRV_016,1.75,36.3,10.75,completed,
+T00025,2025-03-08,8,University,DRV_019,2.85,26.0,9.98,completed,
+T00026,2025-03-04,17,Airport,DRV_040,14.87,35.0,27.82,cancelled,driver_no_show
+T00027,2025-02-25,3,Suburbs,DRV_012,6.76,24.9,12.32,completed,
+T00028,2025-03-09,7,Suburbs,DRV_008,2.08,30.0,12.0,completed,
+T00029,2025-03-01,9,City Centre,DRV_038,4.07,12.6,9.0,cancelled,driver_no_show
+T00030,2025-02-26,20,University,DRV_007,6.36,23.3,15.62,cancelled,no_driver_available
+T00031,2025-02-26,11,University,DRV_002,3.92,21.6,9.27,completed,
+T00032,2025-02-19,9,University,DRV_017,2.73,27.8,10.87,completed,
+T00033,2025-02-15,9,Suburbs,DRV_017,2.77,26.9,10.4,cancelled,rider_cancelled
+T00034,2025-03-01,14,University,DRV_025,4.17,20.6,9.34,cancelled,rider_cancelled
+T00035,2025-03-11,8,Industrial,DRV_036,4.62,41.3,14.38,completed,
+T00036,2025-02-14,7,Suburbs,DRV_038,7.1,31.9,18.44,completed,
+T00037,2025-03-10,17,Suburbs,DRV_012,5.67,31.9,16.0,completed,
+T00038,2025-03-09,18,City Centre,DRV_040,5.99,22.5,14.88,completed,
+T00039,2025-02-21,18,University,DRV_026,7.89,24.3,17.4,cancelled,no_driver_available
+T00040,2025-03-03,13,Industrial,DRV_003,4.18,31.9,11.05,completed,
+T00041,2025-02-17,9,University,DRV_038,4.12,27.9,12.01,cancelled,driver_no_show
+T00042,2025-03-07,9,Industrial,DRV_006,7.5,40.5,16.86,completed,
+T00043,2025-03-06,10,Industrial,DRV_024,3.1,30.5,9.86,completed,
+T00044,2025-02-23,20,University,DRV_032,6.24,30.2,15.25,completed,
+T00045,2025-02-15,3,Suburbs,DRV_010,6.4,25.4,12.07,completed,
+T00046,2025-03-14,18,City Centre,DRV_011,2.14,25.9,9.61,completed,
+T00047,2025-02-26,19,City Centre,DRV_020,4.54,29.0,13.12,completed,
+T00048,2025-03-11,3,Airport,DRV_036,12.8,31.8,18.79,completed,
+T00049,2025-03-05,8,Suburbs,DRV_009,2.7,23.2,9.39,completed,
+T00050,2025-03-08,20,University,DRV_027,4.51,28.8,14.96,completed,
+T00051,2025-03-07,10,Suburbs,DRV_019,3.38,26.0,9.44,completed,
+T00052,2025-02-18,18,City Centre,DRV_005,6.67,18.2,15.67,cancelled,rider_cancelled
+T00053,2025-02-23,8,Airport,DRV_029,17.4,36.5,32.84,completed,
+T00054,2025-02-27,17,Industrial,DRV_034,6.72,37.5,16.2,completed,
+T00055,2025-02-27,19,Industrial,DRV_024,3.23,32.4,13.5,completed,
+T00056,2025-02-14,17,Airport,DRV_008,13.28,37.9,25.78,cancelled,no_driver_available
+T00057,2025-03-01,18,Industrial,DRV_007,3.16,42.4,15.3,completed,
+T00058,2025-02-17,20,University,DRV_017,2.38,23.2,9.17,cancelled,driver_no_show
+T00059,2025-03-07,7,Industrial,DRV_021,7.63,29.2,15.9,completed,
+T00060,2025-03-05,23,Industrial,DRV_023,4.11,30.8,10.82,completed,
+T00061,2025-03-12,23,University,DRV_010,2.96,21.6,8.4,completed,
+T00062,2025-03-07,19,Airport,DRV_021,17.0,42.7,33.79,cancelled,rider_cancelled
+T00063,2025-02-23,20,University,DRV_012,4.09,28.3,13.57,cancelled,rider_cancelled
+T00064,2025-03-14,3,Airport,DRV_028,11.73,35.8,18.43,cancelled,driver_no_show
+T00065,2025-02-25,9,Airport,DRV_032,12.55,41.8,28.0,cancelled,no_driver_available
+T00066,2025-02-22,8,University,DRV_027,5.66,24.5,14.69,cancelled,driver_no_show
+T00067,2025-03-12,5,Suburbs,DRV_001,6.59,25.3,12.23,completed,
+T00068,2025-02-24,10,Suburbs,DRV_040,2.87,25.4,8.89,completed,
+T00069,2025-02-15,19,Airport,DRV_001,17.46,42.8,29.79,completed,
+T00070,2025-02-27,18,Suburbs,DRV_040,7.03,34.6,15.44,completed,
+T00071,2025-03-08,19,City Centre,DRV_002,7.01,24.3,15.59,completed,
+T00072,2025-02-18,19,University,DRV_021,2.98,27.0,12.75,completed,
+T00073,2025-02-26,7,Suburbs,DRV_005,1.83,28.9,9.99,completed,
+T00074,2025-02-16,2,Industrial,DRV_004,7.14,30.3,13.47,completed,
+T00075,2025-03-05,3,Suburbs,DRV_028,3.49,24.9,9.38,completed,
+T00076,2025-02-27,11,Suburbs,DRV_030,5.52,25.8,11.34,cancelled,rider_cancelled
+T00077,2025-02-22,9,City Centre,DRV_005,6.44,33.3,14.94,completed,
+T00078,2025-02-19,18,City Centre,DRV_040,2.33,19.3,9.88,cancelled,rider_cancelled
+T00079,2025-03-01,15,Airport,DRV_013,16.58,36.7,22.93,cancelled,driver_no_show
+T00080,2025-03-05,19,Airport,DRV_013,17.6,42.8,28.3,completed,
+T00081,2025-03-13,15,Airport,DRV_012,16.23,35.4,22.42,completed,
+T00082,2025-02-26,19,Airport,DRV_019,14.37,52.0,26.92,cancelled,no_driver_available
+T00083,2025-02-17,7,University,DRV_008,7.2,22.8,13.74,completed,
+T00084,2025-03-09,19,City Centre,DRV_017,4.93,26.6,13.83,completed,
+T00085,2025-03-03,17,Airport,DRV_009,16.34,39.7,30.34,completed,
+T00086,2025-03-06,8,City Centre,DRV_003,6.83,23.8,15.81,cancelled,driver_no_show
+T00087,2025-02-15,9,Airport,DRV_015,16.37,39.0,28.08,completed,
+T00088,2025-02-22,19,University,DRV_027,3.37,30.3,12.76,completed,
+T00089,2025-03-08,21,City Centre,DRV_031,2.27,19.3,7.44,completed,
+T00090,2025-03-09,9,Airport,DRV_015,13.05,44.4,23.96,cancelled,driver_no_show
+T00091,2025-02-26,16,City Centre,DRV_013,4.77,17.6,9.43,cancelled,no_driver_available
+T00092,2025-03-09,8,Industrial,DRV_032,4.78,34.8,15.97,cancelled,driver_no_show
+T00093,2025-03-10,16,University,DRV_028,5.29,30.8,11.88,cancelled,no_driver_available
+T00094,2025-02-24,9,Airport,DRV_034,14.07,40.9,29.28,completed,
+T00095,2025-03-11,7,City Centre,DRV_037,6.61,22.0,15.21,completed,
+T00096,2025-02-21,19,City Centre,DRV_033,7.44,21.5,17.12,completed,
+T00097,2025-02-20,17,Suburbs,DRV_038,3.1,26.0,11.26,completed,
+T00098,2025-03-05,14,University,DRV_017,6.29,23.7,11.72,cancelled,rider_cancelled
+T00099,2025-03-04,20,Suburbs,DRV_016,5.91,26.9,13.26,cancelled,no_driver_available
+T00100,2025-02-17,18,Industrial,DRV_013,4.9,33.5,13.52,completed,
+T00101,2025-03-09,9,Airport,DRV_010,12.73,40.6,22.63,cancelled,rider_cancelled
+T00102,2025-02-18,20,Airport,DRV_030,16.67,45.8,29.38,completed,
+T00103,2025-03-09,19,Suburbs,DRV_029,7.74,25.1,17.34,completed,
+T00104,2025-02-13,8,Airport,DRV_033,16.19,34.2,29.69,cancelled,driver_no_show
+T00105,2025-03-08,6,Industrial,DRV_007,7.47,30.9,13.86,cancelled,no_driver_available
+T00106,2025-03-08,8,City Centre,DRV_020,7.9,27.6,15.73,completed,
+T00107,2025-03-08,19,Suburbs,DRV_009,3.79,29.7,13.73,cancelled,rider_cancelled
+T00108,2025-03-04,7,Suburbs,DRV_036,5.65,26.8,14.0,completed,
+T00109,2025-02-27,8,City Centre,DRV_011,4.58,28.7,12.06,cancelled,driver_no_show
+T00110,2025-03-06,9,Suburbs,DRV_006,7.91,24.1,15.67,completed,
+T00111,2025-02-21,8,Suburbs,DRV_023,2.11,28.3,10.37,cancelled,rider_cancelled
+T00112,2025-03-08,22,Airport,DRV_036,14.18,31.2,19.94,completed,
+T00113,2025-03-01,17,City Centre,DRV_037,7.19,30.0,18.1,completed,
+T00114,2025-02-26,3,City Centre,DRV_004,3.35,20.5,8.59,cancelled,rider_cancelled
+T00115,2025-02-28,18,City Centre,DRV_014,6.62,24.9,15.96,completed,
+T00116,2025-03-02,19,Suburbs,DRV_007,3.99,33.0,12.61,completed,
+T00117,2025-02-14,16,City Centre,DRV_013,7.87,29.3,13.98,cancelled,rider_cancelled
+T00118,2025-02-17,7,Industrial,DRV_022,7.24,29.9,17.59,completed,
+T00119,2025-02-20,7,Airport,DRV_012,13.46,34.9,22.99,completed,
+T00120,2025-02-16,20,University,DRV_003,6.51,21.9,15.07,completed,
+T00121,2025-02-26,5,University,DRV_021,3.69,16.6,8.31,completed,
+T00122,2025-03-05,18,Suburbs,DRV_003,5.44,22.7,13.3,cancelled,rider_cancelled
+T00123,2025-03-04,7,Industrial,DRV_010,5.78,32.6,14.27,completed,
+T00124,2025-02-27,8,City Centre,DRV_001,6.89,18.5,14.41,completed,
+T00125,2025-03-10,5,Airport,DRV_004,11.66,36.3,18.44,cancelled,no_driver_available
+T00126,2025-03-01,17,Airport,DRV_018,12.93,38.8,22.94,cancelled,rider_cancelled
+T00127,2025-02-15,18,City Centre,DRV_035,6.13,24.7,13.36,completed,
+T00128,2025-03-07,20,Airport,DRV_031,15.16,40.1,30.72,cancelled,driver_no_show
+T00129,2025-03-02,8,Airport,DRV_004,14.72,42.6,26.24,completed,
+T00130,2025-03-04,10,University,DRV_002,1.86,18.5,6.95,cancelled,rider_cancelled
+T00131,2025-03-01,5,Airport,DRV_014,13.76,43.5,21.41,completed,
+T00132,2025-03-01,20,Industrial,DRV_027,7.12,33.5,19.08,cancelled,no_driver_available
+T00133,2025-02-15,8,University,DRV_030,1.7,19.6,8.84,cancelled,no_driver_available
+T00134,2025-03-01,19,Industrial,DRV_033,4.08,29.0,14.48,cancelled,no_driver_available
+T00135,2025-03-08,9,City Centre,DRV_014,7.64,17.6,14.3,completed,
+T00136,2025-02-22,19,Industrial,DRV_007,1.83,34.2,10.52,cancelled,driver_no_show
+T00137,2025-03-03,5,University,DRV_002,6.37,19.5,11.16,cancelled,no_driver_available
+T00138,2025-02-13,13,Industrial,DRV_006,3.17,28.1,9.57,completed,
+T00139,2025-02-23,19,Airport,DRV_003,17.13,46.2,33.31,cancelled,driver_no_show
+T00140,2025-02-26,14,Industrial,DRV_035,6.35,32.2,13.04,cancelled,driver_no_show
+T00141,2025-03-14,19,Suburbs,DRV_011,7.26,30.1,16.82,completed,
+T00142,2025-02-19,18,City Centre,DRV_033,2.9,17.6,10.78,completed,
+T00143,2025-02-21,17,Suburbs,DRV_023,4.95,27.3,13.99,completed,
+T00144,2025-02-25,9,City Centre,DRV_022,6.57,25.2,14.4,completed,
+T00145,2025-03-14,9,Industrial,DRV_019,3.1,33.2,12.8,cancelled,driver_no_show
+T00146,2025-03-10,17,Airport,DRV_033,13.0,34.9,21.6,cancelled,driver_no_show
+T00147,2025-02-14,3,Airport,DRV_002,11.68,34.3,18.16,completed,
+T00148,2025-02-20,9,Suburbs,DRV_004,7.73,32.3,16.17,cancelled,rider_cancelled
+T00149,2025-03-09,19,Suburbs,DRV_017,6.12,30.3,14.97,completed,
+T00150,2025-02-14,2,City Centre,DRV_016,5.63,14.7,9.77,cancelled,rider_cancelled
+T00151,2025-03-10,7,Industrial,DRV_022,6.34,33.0,14.64,cancelled,driver_no_show
+T00152,2025-02-21,17,Industrial,DRV_030,4.96,35.2,13.76,completed,
+T00153,2025-03-12,19,University,DRV_024,4.59,27.9,14.16,completed,
+T00154,2025-02-21,1,University,DRV_011,4.42,22.4,9.84,completed,
+T00155,2025-02-26,18,Suburbs,DRV_014,5.66,33.2,15.63,cancelled,rider_cancelled
+T00156,2025-03-04,19,Suburbs,DRV_031,2.81,26.3,10.78,completed,
+T00157,2025-02-16,0,Suburbs,DRV_009,7.27,23.2,12.52,completed,
+T00158,2025-03-01,18,City Centre,DRV_021,6.78,24.4,14.18,completed,
+T00159,2025-02-28,17,City Centre,DRV_022,3.77,26.5,13.11,completed,
+T00160,2025-03-08,19,Airport,DRV_031,15.26,40.3,30.87,completed,
+T00161,2025-03-14,1,Suburbs,DRV_029,2.42,28.2,8.91,completed,
+T00162,2025-03-04,5,City Centre,DRV_019,7.82,21.9,12.82,completed,
+T00163,2025-02-25,9,City Centre,DRV_013,7.37,30.0,17.43,cancelled,no_driver_available
+T00164,2025-02-25,7,Industrial,DRV_015,7.49,44.4,20.55,completed,
+T00165,2025-02-25,8,Airport,DRV_017,13.66,33.8,26.08,completed,
+T00166,2025-03-09,20,Suburbs,DRV_009,2.6,31.6,12.56,cancelled,rider_cancelled
+T00167,2025-02-22,17,Suburbs,DRV_026,2.88,29.2,12.75,cancelled,rider_cancelled
+T00168,2025-02-18,9,University,DRV_009,2.09,25.5,10.22,completed,
+T00169,2025-02-23,20,University,DRV_026,2.28,22.5,9.99,completed,
+T00170,2025-02-13,19,Airport,DRV_031,11.96,32.6,21.73,cancelled,rider_cancelled
+T00171,2025-02-16,8,Industrial,DRV_039,7.93,33.2,16.54,cancelled,driver_no_show
+T00172,2025-02-15,1,Airport,DRV_005,11.98,31.9,18.07,cancelled,no_driver_available
+T00173,2025-03-08,14,Industrial,DRV_031,2.36,30.3,9.17,completed,
+T00174,2025-03-06,6,Suburbs,DRV_004,6.88,21.8,11.96,completed,
+T00175,2025-03-05,20,City Centre,DRV_014,5.27,17.7,11.17,completed,
+T00176,2025-02-26,8,University,DRV_008,6.53,24.2,13.89,completed,
+T00177,2025-03-06,19,City Centre,DRV_007,5.6,24.8,14.54,cancelled,rider_cancelled
+T00178,2025-02-17,17,University,DRV_008,7.23,28.4,17.1,completed,
+T00179,2025-03-12,17,City Centre,DRV_002,5.65,32.0,15.19,completed,
+T00180,2025-02-28,7,Airport,DRV_033,14.89,43.7,25.31,cancelled,driver_no_show
+T00181,2025-03-13,9,University,DRV_003,6.13,26.3,14.71,cancelled,driver_no_show
+T00182,2025-02-17,19,Industrial,DRV_016,4.41,32.7,13.72,completed,
+T00183,2025-02-27,13,Suburbs,DRV_028,3.75,19.9,8.86,completed,
+T00184,2025-03-05,1,City Centre,DRV_040,4.54,24.3,10.23,completed,
+T00185,2025-02-27,7,Airport,DRV_035,12.6,39.2,24.6,cancelled,driver_no_show
+T00186,2025-02-26,20,Industrial,DRV_006,6.68,32.9,16.76,cancelled,driver_no_show
+T00187,2025-02-17,7,University,DRV_040,3.19,25.3,12.74,cancelled,rider_cancelled
+T00188,2025-02-24,8,City Centre,DRV_027,2.5,23.4,10.96,cancelled,rider_cancelled
+T00189,2025-02-20,17,Airport,DRV_008,13.1,35.5,24.5,completed,
+T00190,2025-02-22,13,Airport,DRV_018,16.97,33.8,22.84,completed,
+T00191,2025-03-05,20,City Centre,DRV_037,3.65,29.5,11.31,completed,
+T00192,2025-03-03,9,Industrial,DRV_016,5.96,34.8,18.09,completed,
+T00193,2025-03-03,11,University,DRV_008,7.07,14.4,11.02,completed,
+T00194,2025-02-23,13,City Centre,DRV_036,2.01,21.8,7.58,completed,
+T00195,2025-03-13,4,University,DRV_039,6.47,22.0,11.62,cancelled,rider_cancelled
+T00196,2025-02-15,20,Suburbs,DRV_040,3.5,25.2,12.41,completed,
+T00197,2025-02-23,9,City Centre,DRV_039,2.91,15.1,8.23,completed,
+T00198,2025-02-16,14,Suburbs,DRV_035,5.98,22.0,11.18,completed,
+T00199,2025-02-23,20,City Centre,DRV_019,7.41,24.2,14.18,completed,
+T00200,2025-03-13,19,Airport,DRV_008,13.42,42.8,26.88,completed,
+T00201,2025-02-23,14,Industrial,DRV_025,5.2,25.9,11.07,completed,
+T00202,2025-03-12,20,University,DRV_009,3.38,21.9,12.18,cancelled,no_driver_available
+T00203,2025-02-27,0,City Centre,DRV_019,5.1,20.7,10.2,completed,
+T00204,2025-03-05,19,Industrial,DRV_027,5.54,26.6,14.5,completed,
+T00205,2025-02-26,19,Suburbs,DRV_038,5.47,31.4,15.59,cancelled,driver_no_show
+T00206,2025-02-20,15,Industrial,DRV_012,5.55,25.3,11.29,cancelled,no_driver_available
+T00207,2025-03-07,9,University,DRV_011,2.38,26.7,9.68,cancelled,no_driver_available
+T00208,2025-03-14,20,Airport,DRV_030,16.01,39.7,30.21,completed,
+T00209,2025-02-20,9,Suburbs,DRV_001,5.89,34.9,14.74,completed,
+T00210,2025-03-08,8,Suburbs,DRV_023,5.94,31.8,14.2,cancelled,no_driver_available
+T00211,2025-02-20,20,University,DRV_030,1.98,18.0,8.33,cancelled,no_driver_available
+T00212,2025-03-06,19,Airport,DRV_023,14.4,35.6,22.96,cancelled,no_driver_available
+T00213,2025-03-08,9,Airport,DRV_016,14.16,41.6,26.43,cancelled,no_driver_available
+T00214,2025-02-26,20,Airport,DRV_034,12.06,36.5,24.71,cancelled,no_driver_available
+T00215,2025-03-07,9,Airport,DRV_015,12.95,44.6,27.94,cancelled,rider_cancelled
+T00216,2025-02-21,8,City Centre,DRV_029,4.37,29.0,13.82,cancelled,no_driver_available
+T00217,2025-02-15,19,City Centre,DRV_019,6.33,26.9,16.56,completed,
+T00218,2025-02-15,17,Industrial,DRV_002,3.04,33.9,12.61,completed,
+T00219,2025-02-26,20,City Centre,DRV_022,6.89,13.9,14.61,completed,
+T00220,2025-03-12,19,Industrial,DRV_002,5.05,35.1,15.41,completed,
+T00221,2025-02-16,19,City Centre,DRV_038,6.44,26.1,14.25,completed,
+T00222,2025-02-26,16,University,DRV_025,4.57,15.6,8.95,completed,
+T00223,2025-03-06,17,Airport,DRV_015,14.74,42.2,26.13,completed,
+T00224,2025-02-19,13,Suburbs,DRV_020,5.53,28.6,11.77,completed,
+T00225,2025-03-06,20,Airport,DRV_025,17.53,42.5,28.91,cancelled,rider_cancelled
+T00226,2025-02-22,17,Suburbs,DRV_011,4.7,18.8,11.56,cancelled,rider_cancelled
+T00227,2025-03-09,8,Suburbs,DRV_012,4.94,25.7,13.02,cancelled,no_driver_available
+T00228,2025-03-02,17,Suburbs,DRV_017,5.41,38.4,16.51,completed,
+T00229,2025-03-01,19,Airport,DRV_011,16.29,36.4,30.88,completed,
+T00230,2025-02-18,7,Suburbs,DRV_031,1.97,21.3,8.87,cancelled,rider_cancelled
+T00231,2025-02-26,9,Industrial,DRV_005,4.85,37.2,15.63,completed,
+T00232,2025-03-10,14,Suburbs,DRV_034,4.63,25.1,10.43,completed,
+T00233,2025-02-13,19,Airport,DRV_014,17.49,44.0,33.45,completed,
+T00234,2025-03-07,17,City Centre,DRV_023,4.71,23.7,11.81,completed,
+T00235,2025-02-27,12,Airport,DRV_007,14.54,36.8,21.11,cancelled,no_driver_available
+T00236,2025-03-06,9,City Centre,DRV_016,7.75,22.7,16.11,completed,
+T00237,2025-03-04,7,City Centre,DRV_031,4.43,26.3,13.58,completed,
+T00238,2025-02-25,18,Industrial,DRV_011,2.68,42.5,15.11,cancelled,driver_no_show
+T00239,2025-02-22,18,City Centre,DRV_006,2.91,24.3,11.19,completed,
+T00240,2025-03-03,14,Suburbs,DRV_021,2.12,18.7,7.21,cancelled,no_driver_available
+T00241,2025-02-17,20,Industrial,DRV_007,1.5,36.0,11.26,completed,
+T00242,2025-03-02,8,Industrial,DRV_013,4.31,38.8,13.54,completed,
+T00243,2025-02-15,20,City Centre,DRV_019,6.5,27.4,14.14,cancelled,rider_cancelled
+T00244,2025-03-04,6,City Centre,DRV_023,6.27,16.3,10.59,completed,
+T00245,2025-03-03,7,Airport,DRV_026,11.71,43.6,23.47,cancelled,driver_no_show
+T00246,2025-02-15,2,Suburbs,DRV_028,5.2,28.7,11.48,cancelled,no_driver_available
+T00247,2025-03-07,18,Industrial,DRV_034,2.5,47.9,14.4,cancelled,rider_cancelled
+T00248,2025-02-25,19,Airport,DRV_003,17.62,38.0,30.51,completed,
+T00249,2025-03-08,13,City Centre,DRV_015,2.59,16.0,7.23,cancelled,rider_cancelled
+T00250,2025-02-14,7,Airport,DRV_001,15.57,40.3,29.4,cancelled,rider_cancelled
+T00251,2025-02-18,8,Industrial,DRV_001,3.62,32.8,13.88,cancelled,no_driver_available
+T00252,2025-02-27,7,City Centre,DRV_009,5.67,18.9,12.48,completed,
+T00253,2025-02-18,4,Airport,DRV_024,14.18,23.9,18.85,cancelled,no_driver_available
+T00254,2025-02-22,10,City Centre,DRV_036,6.44,16.3,10.74,completed,
+T00255,2025-03-04,17,City Centre,DRV_031,3.0,22.1,10.89,completed,
+T00256,2025-02-17,20,Industrial,DRV_026,7.39,32.5,16.75,completed,
+T00257,2025-03-05,7,City Centre,DRV_032,4.75,28.5,13.25,completed,
+T00258,2025-02-16,9,Airport,DRV_007,16.41,39.5,30.34,completed,
+T00259,2025-02-18,6,Industrial,DRV_034,7.02,35.2,14.1,completed,
+T00260,2025-03-02,8,University,DRV_036,7.99,28.6,15.95,completed,
+T00261,2025-03-08,8,City Centre,DRV_004,2.96,23.5,10.71,cancelled,no_driver_available
+T00262,2025-02-18,9,Suburbs,DRV_019,3.36,31.8,14.08,completed,
+T00263,2025-02-21,8,Industrial,DRV_034,3.13,40.2,12.61,completed,
+T00264,2025-03-12,7,Suburbs,DRV_020,3.21,27.3,12.87,cancelled,driver_no_show
+T00265,2025-03-14,14,Suburbs,DRV_034,5.29,27.0,11.31,completed,
+T00266,2025-03-02,4,Suburbs,DRV_038,7.96,26.5,13.64,completed,
+T00267,2025-02-26,18,University,DRV_019,7.94,22.1,15.91,completed,
+T00268,2025-02-23,20,City Centre,DRV_003,4.92,23.3,11.5,completed,
+T00269,2025-03-03,9,Industrial,DRV_014,5.65,43.3,19.35,cancelled,no_driver_available
+T00270,2025-03-02,7,Industrial,DRV_009,7.09,34.1,17.31,completed,
+T00271,2025-02-21,8,City Centre,DRV_019,7.56,21.7,17.41,cancelled,driver_no_show
+T00272,2025-02-13,7,Industrial,DRV_024,2.83,38.0,12.75,completed,
+T00273,2025-02-17,9,Industrial,DRV_019,4.94,37.1,17.01,cancelled,driver_no_show
+T00274,2025-03-13,8,University,DRV_008,6.91,25.3,17.23,completed,
+T00275,2025-02-25,6,Airport,DRV_013,13.47,25.5,18.45,completed,
+T00276,2025-02-27,15,Suburbs,DRV_028,4.36,27.1,10.49,completed,
+T00277,2025-02-27,18,Industrial,DRV_002,7.91,24.5,17.36,cancelled,no_driver_available
+T00278,2025-03-08,18,City Centre,DRV_009,7.9,26.0,17.09,cancelled,no_driver_available
+T00279,2025-02-14,17,Industrial,DRV_036,7.39,38.3,20.61,cancelled,no_driver_available
+T00280,2025-02-15,18,Industrial,DRV_004,6.69,36.6,17.26,completed,
+T00281,2025-02-21,19,University,DRV_017,3.25,19.2,9.8,completed,
+T00282,2025-02-27,18,Airport,DRV_009,13.59,31.7,22.24,cancelled,driver_no_show
+T00283,2025-03-05,7,Suburbs,DRV_005,5.06,33.9,15.9,completed,
+T00284,2025-02-27,20,City Centre,DRV_017,5.15,23.6,14.86,completed,
+T00285,2025-02-26,0,Industrial,DRV_021,4.79,28.0,11.01,completed,
+T00286,2025-03-13,20,Airport,DRV_008,15.64,43.3,30.5,cancelled,rider_cancelled
+T00287,2025-02-17,17,City Centre,DRV_004,4.15,31.6,15.12,completed,
+T00288,2025-03-02,12,University,DRV_006,6.37,23.3,11.73,completed,
+T00289,2025-03-01,19,University,DRV_027,3.67,27.4,11.23,cancelled,driver_no_show
+T00290,2025-02-27,18,University,DRV_035,3.65,29.1,13.27,completed,
+T00291,2025-03-09,18,City Centre,DRV_008,2.33,28.4,11.46,cancelled,rider_cancelled
+T00292,2025-02-21,7,University,DRV_013,2.73,23.5,9.51,cancelled,rider_cancelled
+T00293,2025-03-13,20,University,DRV_014,7.03,19.4,15.85,cancelled,rider_cancelled
+T00294,2025-02-22,9,University,DRV_015,4.4,22.1,12.29,cancelled,rider_cancelled
+T00295,2025-03-01,21,Industrial,DRV_010,2.98,33.2,10.16,cancelled,rider_cancelled
+T00296,2025-02-28,3,Airport,DRV_003,16.44,31.1,21.96,cancelled,driver_no_show
+T00297,2025-03-10,3,Airport,DRV_022,15.1,34.3,21.24,cancelled,driver_no_show
+T00298,2025-02-26,8,Industrial,DRV_015,1.64,35.0,11.58,completed,
+T00299,2025-02-21,7,Suburbs,DRV_014,3.56,33.4,12.59,completed,
+T00300,2025-02-13,8,Suburbs,DRV_011,2.65,35.5,12.78,cancelled,no_driver_available
+T00301,2025-02-23,9,Airport,DRV_038,15.76,43.0,26.15,completed,
+T00302,2025-03-09,9,University,DRV_025,3.29,28.7,12.67,cancelled,driver_no_show
+T00303,2025-02-13,0,University,DRV_017,1.92,19.9,7.21,cancelled,driver_no_show
+T00304,2025-03-11,12,City Centre,DRV_009,1.86,18.8,6.99,cancelled,no_driver_available
+T00305,2025-03-01,19,Suburbs,DRV_033,5.28,26.3,12.5,completed,
+T00306,2025-02-17,3,Industrial,DRV_036,1.64,21.3,7.17,completed,
+T00307,2025-02-22,17,Airport,DRV_002,17.02,38.5,27.59,completed,
+T00308,2025-03-01,8,Airport,DRV_038,12.51,39.8,25.37,cancelled,driver_no_show
+T00309,2025-02-22,7,Industrial,DRV_028,5.44,42.0,18.3,cancelled,driver_no_show
+T00310,2025-02-16,9,City Centre,DRV_004,4.39,26.5,11.65,cancelled,driver_no_show
+T00311,2025-03-04,9,Airport,DRV_031,14.38,47.5,30.58,cancelled,no_driver_available
+T00312,2025-03-05,7,Suburbs,DRV_005,1.97,29.0,11.71,cancelled,driver_no_show
+T00313,2025-02-16,7,University,DRV_003,6.72,20.6,14.0,cancelled,rider_cancelled
+T00314,2025-02-21,17,City Centre,DRV_005,7.3,22.9,16.23,completed,
+T00315,2025-02-20,22,Suburbs,DRV_019,1.57,35.1,9.18,completed,
+T00316,2025-03-04,23,City Centre,DRV_025,2.66,23.9,8.48,completed,
+T00317,2025-03-06,9,University,DRV_017,7.38,30.0,17.17,cancelled,driver_no_show
+T00318,2025-03-06,17,University,DRV_005,5.07,24.6,12.11,cancelled,rider_cancelled
+T00319,2025-03-13,4,Suburbs,DRV_008,2.48,21.5,7.96,completed,
+T00320,2025-03-08,15,Airport,DRV_035,12.82,38.2,19.77,completed,
+T00321,2025-02-22,19,City Centre,DRV_039,5.79,19.8,14.38,completed,
+T00322,2025-02-16,17,Industrial,DRV_031,6.21,34.6,16.85,cancelled,rider_cancelled
+T00323,2025-03-03,7,University,DRV_005,5.4,22.8,13.66,completed,
+T00324,2025-03-12,0,Airport,DRV_033,17.7,41.4,24.64,completed,
+T00325,2025-03-14,19,Suburbs,DRV_028,4.71,30.9,13.36,completed,
+T00326,2025-02-19,19,University,DRV_022,3.45,16.2,9.02,completed,
+T00327,2025-02-20,11,University,DRV_006,4.6,22.0,9.94,completed,
+T00328,2025-02-14,18,Suburbs,DRV_040,3.84,26.1,11.83,cancelled,no_driver_available
+T00329,2025-02-17,22,Airport,DRV_018,12.96,35.2,19.44,completed,
+T00330,2025-03-01,22,University,DRV_002,1.8,19.7,7.07,completed,
+T00331,2025-03-01,20,University,DRV_009,3.79,21.0,11.59,completed,
+T00332,2025-02-24,19,Suburbs,DRV_017,6.12,36.1,15.83,completed,
+T00333,2025-02-22,12,City Centre,DRV_003,1.62,11.9,5.74,completed,
+T00334,2025-03-09,9,Suburbs,DRV_013,4.35,29.8,12.11,cancelled,rider_cancelled
+T00335,2025-02-26,12,University,DRV_019,5.69,22.7,11.03,completed,
+T00336,2025-03-09,8,Industrial,DRV_038,5.47,31.2,16.5,cancelled,no_driver_available
+T00337,2025-03-13,14,Suburbs,DRV_004,6.55,18.6,11.18,completed,
+T00338,2025-02-22,10,Airport,DRV_024,16.77,37.7,23.25,cancelled,driver_no_show
+T00339,2025-02-19,7,Suburbs,DRV_037,6.13,36.3,17.86,cancelled,no_driver_available
+T00340,2025-03-13,8,City Centre,DRV_033,2.17,25.6,9.94,completed,
+T00341,2025-03-04,20,City Centre,DRV_037,4.59,17.4,12.44,completed,
+T00342,2025-02-21,7,University,DRV_007,5.42,25.7,14.69,completed,
+T00343,2025-03-03,20,Industrial,DRV_033,3.1,30.0,12.41,completed,
+T00344,2025-02-28,7,Industrial,DRV_040,1.78,34.1,10.14,cancelled,driver_no_show
+T00345,2025-03-12,9,Suburbs,DRV_014,2.95,28.9,10.54,cancelled,rider_cancelled
+T00346,2025-02-20,0,City Centre,DRV_020,4.46,13.4,8.52,completed,
+T00347,2025-03-14,19,Industrial,DRV_022,4.19,32.3,14.84,completed,
+T00348,2025-03-13,9,Suburbs,DRV_020,2.65,27.2,12.38,completed,
+T00349,2025-02-18,8,Airport,DRV_012,16.86,34.5,31.32,completed,
+T00350,2025-02-17,20,Industrial,DRV_039,7.52,35.8,16.19,completed,
+T00351,2025-02-28,20,University,DRV_039,2.81,25.7,11.88,completed,
+T00352,2025-02-14,8,University,DRV_016,7.54,30.7,17.16,completed,
+T00353,2025-02-21,18,Airport,DRV_033,11.62,43.9,26.13,completed,
+T00354,2025-02-26,11,Industrial,DRV_016,7.51,27.2,13.34,cancelled,no_driver_available
+T00355,2025-03-14,4,Suburbs,DRV_032,7.69,21.5,12.65,cancelled,driver_no_show
+T00356,2025-03-14,7,Suburbs,DRV_024,1.58,22.0,9.57,cancelled,no_driver_available
+T00357,2025-02-17,9,University,DRV_019,6.46,26.4,16.42,completed,
+T00358,2025-03-11,2,University,DRV_006,7.81,18.6,12.32,cancelled,driver_no_show
+T00359,2025-02-15,22,City Centre,DRV_027,7.39,8.5,10.43,cancelled,no_driver_available
+T00360,2025-03-07,20,Airport,DRV_013,17.81,38.3,28.96,completed,
+T00361,2025-03-10,9,Airport,DRV_009,15.08,34.5,29.53,cancelled,rider_cancelled
+T00362,2025-03-11,9,Industrial,DRV_008,2.01,41.1,12.9,completed,
+T00363,2025-02-19,9,University,DRV_040,7.02,19.1,14.42,cancelled,driver_no_show
+T00364,2025-03-11,17,Airport,DRV_005,15.49,32.0,26.88,completed,
+T00365,2025-02-16,23,University,DRV_032,5.5,24.4,11.11,cancelled,no_driver_available
+T00366,2025-02-28,20,University,DRV_035,4.21,30.5,13.75,completed,
+T00367,2025-02-27,2,Airport,DRV_002,15.22,32.0,21.0,completed,
+T00368,2025-02-22,23,Suburbs,DRV_024,2.5,22.5,8.12,completed,
+T00369,2025-02-13,10,Industrial,DRV_024,6.31,32.5,13.05,completed,
+T00370,2025-03-08,12,Suburbs,DRV_015,1.99,15.7,6.65,completed,
+T00371,2025-02-23,15,City Centre,DRV_027,6.24,10.6,9.71,completed,
+T00372,2025-03-04,7,University,DRV_017,7.02,24.6,15.42,completed,
+T00373,2025-02-25,17,Suburbs,DRV_018,4.57,34.9,15.54,cancelled,driver_no_show
+T00374,2025-02-24,7,Suburbs,DRV_018,4.81,25.9,14.48,completed,
+T00375,2025-03-11,19,University,DRV_033,3.53,26.0,12.15,cancelled,rider_cancelled
+T00376,2025-02-15,20,Industrial,DRV_026,7.8,36.9,19.72,cancelled,rider_cancelled
+T00377,2025-03-07,0,Airport,DRV_016,16.27,43.4,23.65,completed,
+T00378,2025-03-07,14,Suburbs,DRV_038,3.9,22.7,9.41,completed,
+T00379,2025-02-24,7,City Centre,DRV_033,2.64,23.2,11.06,completed,
+T00380,2025-02-20,23,University,DRV_038,2.93,27.3,9.23,completed,
+T00381,2025-02-13,16,Suburbs,DRV_030,4.52,18.9,9.4,completed,
+T00382,2025-03-13,9,Airport,DRV_016,17.63,45.9,32.23,cancelled,driver_no_show
+T00383,2025-03-13,9,University,DRV_031,6.27,22.9,12.74,completed,
+T00384,2025-02-20,19,Suburbs,DRV_014,2.9,29.3,12.9,cancelled,driver_no_show
+T00385,2025-02-13,7,Suburbs,DRV_011,7.09,29.3,17.03,completed,
+T00386,2025-02-16,19,Suburbs,DRV_019,3.96,26.5,11.43,cancelled,driver_no_show
+T00387,2025-02-15,9,Airport,DRV_039,17.04,35.9,31.23,completed,
+T00388,2025-03-09,8,City Centre,DRV_023,3.07,25.0,11.85,completed,
+T00389,2025-03-11,18,Industrial,DRV_016,5.52,37.2,17.32,completed,
+T00390,2025-02-17,17,City Centre,DRV_019,7.52,25.4,15.92,cancelled,driver_no_show
+T00391,2025-03-07,17,Airport,DRV_012,13.18,37.9,27.19,completed,
+T00392,2025-02-18,17,University,DRV_027,6.0,29.3,15.05,completed,
+T00393,2025-02-24,18,City Centre,DRV_015,7.92,19.7,15.99,completed,
+T00394,2025-03-02,0,University,DRV_023,2.48,23.0,8.18,completed,
+T00395,2025-03-06,2,University,DRV_015,2.07,23.3,7.86,completed,
+T00396,2025-03-11,9,University,DRV_013,5.88,32.9,16.74,completed,
+T00397,2025-02-14,19,Airport,DRV_039,13.71,40.1,26.49,completed,
+T00398,2025-02-18,1,City Centre,DRV_014,1.96,16.2,6.69,completed,
+T00399,2025-02-21,15,Industrial,DRV_003,4.59,33.1,11.6,completed,
+T00400,2025-02-22,2,Airport,DRV_016,16.4,38.3,23.0,completed,
+T00401,2025-03-14,8,Industrial,DRV_022,3.35,34.4,12.63,cancelled,driver_no_show
+T00402,2025-03-08,21,City Centre,DRV_004,3.68,16.4,8.27,completed,
+T00403,2025-02-22,8,City Centre,DRV_013,7.0,27.5,16.96,cancelled,no_driver_available
+T00404,2025-03-14,9,University,DRV_007,4.88,23.3,14.5,cancelled,rider_cancelled
+T00405,2025-02-27,21,Industrial,DRV_021,6.98,28.4,13.04,completed,
+T00406,2025-02-28,12,Industrial,DRV_029,4.4,30.4,11.02,completed,
+T00407,2025-02-26,12,University,DRV_039,7.69,24.0,13.02,completed,
+T00408,2025-02-17,18,Airport,DRV_016,15.73,40.3,29.12,completed,
+T00409,2025-03-13,23,Industrial,DRV_035,2.25,22.6,7.92,completed,
+T00410,2025-02-13,9,University,DRV_009,7.25,16.3,14.49,completed,
+T00411,2025-02-18,19,City Centre,DRV_032,4.68,16.4,12.2,completed,
+T00412,2025-02-19,2,City Centre,DRV_023,2.42,12.7,6.58,completed,
+T00413,2025-02-21,20,Industrial,DRV_031,2.49,35.8,13.76,cancelled,driver_no_show
+T00414,2025-02-16,0,Airport,DRV_031,15.97,30.2,21.4,completed,
+T00415,2025-02-13,19,University,DRV_022,1.81,22.6,9.13,cancelled,no_driver_available
+T00416,2025-03-05,9,City Centre,DRV_011,3.36,18.8,10.44,completed,
+T00417,2025-03-14,9,Airport,DRV_022,12.41,36.1,23.47,cancelled,driver_no_show
+T00418,2025-02-16,2,Airport,DRV_034,14.37,40.3,21.48,completed,
+T00419,2025-02-21,20,Airport,DRV_039,14.19,44.8,25.2,completed,
+T00420,2025-02-28,7,University,DRV_038,4.89,25.7,14.53,cancelled,no_driver_available
+T00421,2025-03-12,20,Industrial,DRV_008,3.32,32.4,12.89,completed,
+T00422,2025-03-05,20,Industrial,DRV_024,1.71,35.0,10.35,cancelled,no_driver_available
+T00423,2025-03-07,17,University,DRV_005,5.49,23.7,12.15,completed,
+T00424,2025-03-02,20,Airport,DRV_027,13.93,40.9,26.3,completed,
+T00425,2025-02-25,17,Industrial,DRV_040,5.73,29.8,13.94,cancelled,rider_cancelled
+T00426,2025-02-18,10,Suburbs,DRV_003,2.21,25.1,8.25,cancelled,rider_cancelled
+T00427,2025-03-10,8,Suburbs,DRV_027,1.59,23.1,9.9,completed,
+T00428,2025-03-09,8,University,DRV_038,3.11,26.6,10.85,cancelled,rider_cancelled
+T00429,2025-02-13,9,University,DRV_034,4.47,25.1,13.14,cancelled,rider_cancelled
+T00430,2025-03-06,15,Industrial,DRV_016,4.06,28.9,10.49,cancelled,driver_no_show
+T00431,2025-02-15,19,Suburbs,DRV_005,6.77,38.1,17.04,completed,
+T00432,2025-03-07,7,University,DRV_037,3.96,20.8,12.55,cancelled,no_driver_available
+T00433,2025-03-09,17,University,DRV_037,4.95,28.4,14.17,completed,
+T00434,2025-02-16,9,Airport,DRV_024,15.36,41.4,30.78,cancelled,rider_cancelled
+T00435,2025-02-26,1,Airport,DRV_040,11.64,34.6,18.17,cancelled,driver_no_show
+T00436,2025-02-16,19,University,DRV_001,4.85,26.0,12.91,cancelled,driver_no_show
+T00437,2025-03-02,19,City Centre,DRV_025,3.74,26.3,12.18,completed,
+T00438,2025-03-12,19,Airport,DRV_002,14.24,43.2,27.11,cancelled,driver_no_show
+T00439,2025-02-15,10,University,DRV_038,2.15,25.5,8.26,completed,
+T00440,2025-02-24,8,Industrial,DRV_028,6.59,37.5,15.94,completed,
+T00441,2025-03-14,7,Suburbs,DRV_037,7.63,31.8,19.16,cancelled,rider_cancelled
+T00442,2025-02-22,22,Airport,DRV_023,11.64,32.2,17.81,completed,
+T00443,2025-02-16,18,Suburbs,DRV_004,5.41,30.6,15.14,cancelled,rider_cancelled
+T00444,2025-02-27,9,University,DRV_002,6.46,22.8,14.12,completed,
+T00445,2025-02-28,19,Suburbs,DRV_014,3.35,36.1,13.73,completed,
+T00446,2025-03-04,17,City Centre,DRV_030,6.62,32.5,15.84,completed,
+T00447,2025-02-22,7,Suburbs,DRV_007,5.61,29.5,16.04,completed,
+T00448,2025-03-13,5,Suburbs,DRV_035,7.54,16.2,11.72,completed,
+T00449,2025-02-28,21,University,DRV_010,7.88,17.8,12.26,completed,
+T00450,2025-02-21,7,Industrial,DRV_020,1.78,38.2,12.65,completed,
+T00451,2025-03-13,18,Industrial,DRV_009,4.39,35.8,14.83,completed,
+T00452,2025-03-12,7,University,DRV_019,5.06,26.6,14.5,completed,
+T00453,2025-02-27,18,Airport,DRV_019,12.45,43.7,25.35,cancelled,driver_no_show
+T00454,2025-02-13,20,Suburbs,DRV_001,3.69,30.4,14.24,completed,
+T00455,2025-03-02,19,City Centre,DRV_023,7.92,30.2,16.36,cancelled,no_driver_available
+T00456,2025-03-01,13,Industrial,DRV_032,1.61,33.7,9.0,cancelled,no_driver_available
+T00457,2025-02-17,9,Industrial,DRV_038,4.44,40.8,16.95,cancelled,no_driver_available
+T00458,2025-03-04,6,Industrial,DRV_014,6.98,31.4,13.49,completed,
+T00459,2025-03-10,20,Airport,DRV_036,13.61,41.7,26.15,cancelled,no_driver_available
+T00460,2025-02-16,18,Airport,DRV_036,14.62,40.2,29.3,completed,
+T00461,2025-03-06,19,Industrial,DRV_040,7.86,32.3,17.19,completed,
+T00462,2025-02-17,7,Suburbs,DRV_015,4.59,33.9,15.57,cancelled,driver_no_show
+T00463,2025-03-07,19,University,DRV_035,2.35,28.6,10.17,completed,
+T00464,2025-02-25,8,Suburbs,DRV_023,1.84,35.1,11.23,cancelled,no_driver_available
+T00465,2025-02-13,18,Suburbs,DRV_003,7.65,31.8,17.46,cancelled,no_driver_available
+T00466,2025-03-13,11,University,DRV_011,3.23,17.7,8.06,cancelled,rider_cancelled
+T00467,2025-02-17,17,Industrial,DRV_027,4.78,37.5,15.11,cancelled,rider_cancelled
+T00468,2025-03-02,17,Airport,DRV_007,12.09,44.8,27.06,cancelled,rider_cancelled
+T00469,2025-02-18,23,Industrial,DRV_018,4.25,32.2,11.16,completed,
+T00470,2025-03-12,12,Airport,DRV_031,17.55,28.2,22.52,cancelled,rider_cancelled
+T00471,2025-03-07,20,Suburbs,DRV_006,4.77,27.7,12.28,completed,
+T00472,2025-03-09,17,Industrial,DRV_020,7.81,40.5,20.75,completed,
+T00473,2025-02-25,17,Industrial,DRV_009,3.18,31.8,13.55,completed,
+T00474,2025-02-27,17,Industrial,DRV_022,4.78,28.8,13.57,completed,
+T00475,2025-03-04,8,Airport,DRV_010,17.09,49.3,33.28,cancelled,rider_cancelled
+T00476,2025-03-08,17,Industrial,DRV_039,4.41,39.3,16.99,completed,
+T00477,2025-03-10,16,Industrial,DRV_004,3.32,29.7,9.94,cancelled,rider_cancelled
+T00478,2025-02-13,20,Industrial,DRV_039,7.06,31.7,16.56,cancelled,no_driver_available
+T00479,2025-03-04,7,City Centre,DRV_032,4.03,27.1,12.69,cancelled,rider_cancelled
+T00480,2025-02-16,7,University,DRV_035,4.95,23.1,13.9,cancelled,driver_no_show
+T00481,2025-02-21,7,Industrial,DRV_035,7.85,42.1,18.86,completed,
+T00482,2025-03-09,5,University,DRV_008,2.71,22.2,8.27,completed,
+T00483,2025-02-20,8,Airport,DRV_038,13.46,43.5,25.33,cancelled,rider_cancelled
+T00484,2025-03-08,18,University,DRV_024,1.7,27.7,10.98,completed,
+T00485,2025-02-26,18,City Centre,DRV_039,4.05,25.1,11.16,cancelled,rider_cancelled
+T00486,2025-02-19,19,Suburbs,DRV_036,2.8,34.0,11.27,completed,
+T00487,2025-02-23,4,University,DRV_024,5.92,16.5,10.3,completed,
+T00488,2025-02-28,18,Suburbs,DRV_015,2.68,21.0,10.97,completed,
+T00489,2025-03-07,7,University,DRV_005,5.89,26.8,16.13,completed,
+T00490,2025-03-03,20,Airport,DRV_005,13.21,41.1,28.48,completed,
+T00491,2025-03-12,10,University,DRV_016,3.81,21.9,9.21,cancelled,rider_cancelled
+T00492,2025-03-11,20,University,DRV_033,3.77,29.4,12.22,completed,
+T00493,2025-03-07,7,University,DRV_021,6.16,21.9,12.9,cancelled,driver_no_show
+T00494,2025-03-03,16,Airport,DRV_020,14.53,38.1,21.29,cancelled,driver_no_show
+T00495,2025-02-21,12,Airport,DRV_010,13.85,34.8,20.18,cancelled,rider_cancelled
+T00496,2025-02-25,7,Airport,DRV_023,17.04,38.9,32.68,completed,
+T00497,2025-02-16,17,Suburbs,DRV_026,5.22,29.8,12.85,completed,
+T00498,2025-02-24,9,Suburbs,DRV_040,2.89,37.1,12.19,cancelled,rider_cancelled
+T00499,2025-03-12,7,Airport,DRV_030,17.35,33.9,27.24,completed,
+T00500,2025-02-25,9,Suburbs,DRV_025,3.73,30.1,12.03,cancelled,no_driver_available
